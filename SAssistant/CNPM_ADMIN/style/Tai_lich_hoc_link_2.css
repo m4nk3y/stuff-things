@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-tapestry: Tapestry;
+  --font-montserrat: Montserrat;
+  --font-jua: Jua;
+  --font-ingrid-darling: "Ingrid Darling";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-dodgerblue: #0886fa;
+  --color-skyblue-100: #78b9cd;
+  --color-gainsboro: #d9d9d9;
+  --color-cadetblue-100: #129db7;
+}

@@ -1,0 +1,146 @@
+.m51lch-hc-2-ti-ln-bng-child {
+  position: absolute;
+  top: 146px;
+  left: -1px;
+  background-color: #58abc3;
+  width: 430px;
+  height: 611px;
+  opacity: 0.9;
+}
+.frame-child,
+.m51lch-hc-2-ti-ln-bng-item {
+  position: absolute;
+  top: 63px;
+  left: -3px;
+  background-color: var(--color-gainsboro);
+  width: 430px;
+  height: 83px;
+}
+.frame-child {
+  top: 0;
+  left: 0;
+}
+.sassistant {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  display: inline-block;
+  width: 433px;
+  height: 259px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 33px;
+  left: 398px;
+  border-radius: 50%;
+  background-color: var(--color-skyblue-100);
+  width: 18px;
+  height: 18px;
+}
+.frame-inner {
+  left: 13px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 757px;
+  left: 0;
+  width: 430px;
+  height: 83px;
+  cursor: pointer;
+  font-size: 70px;
+  color: #10b6eb;
+  font-family: var(--font-ingrid-darling);
+}
+.ti-ln-bng {
+  position: absolute;
+  top: 86px;
+  left: 9px;
+  font-size: 38px;
+  color: #2f96a4;
+  display: inline-block;
+  width: 417px;
+  height: 106px;
+  -webkit-text-stroke: 1px #000;
+}
+.m51lch-hc-2-ti-ln-bng-inner,
+.rectangle-div {
+  position: absolute;
+  top: 320px;
+  left: 43px;
+  background-color: var(--color-gainsboro);
+  border: 6px solid var(--color-cadetblue-100);
+  box-sizing: border-box;
+  width: 342px;
+  height: 94px;
+}
+.rectangle-div {
+  top: 509px;
+  height: 90px;
+}
+.chn-nh,
+.chp-nh {
+  position: absolute;
+  top: 540px;
+  left: 94px;
+  display: inline-block;
+  width: 235px;
+  height: 14px;
+}
+.chn-nh {
+  top: 353px;
+}
+.ellipse-div,
+.m51lch-hc-2-ti-ln-bng-child1 {
+  position: absolute;
+  top: 96px;
+  left: 9px;
+  border-radius: 50%;
+  background-color: var(--color-skyblue-100);
+  width: 18px;
+  height: 18px;
+}
+.m51lch-hc-2-ti-ln-bng-child1 {
+  left: 398px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #70c7d7;
+  border: 3px solid #7481f7;
+  box-sizing: border-box;
+  width: 144px;
+  height: 38px;
+}
+.quay-li {
+  position: absolute;
+  top: 5px;
+  left: -44px;
+  display: inline-block;
+  width: 235px;
+  height: 14px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 681px;
+  left: 140px;
+  width: 144px;
+  height: 38px;
+  cursor: pointer;
+  font-family: var(--font-tapestry);
+}
+.m51lch-hc-2-ti-ln-bng {
+  position: relative;
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dodgerblue);
+  font-family: var(--font-montserrat);
+  width: 410px;
+  margin: 50px auto;
+}

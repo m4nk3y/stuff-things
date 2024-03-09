@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- font roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+   
+    .login {
+      background-color: rgb(44, 118, 118);
+    }  
+
+    
+      
+      .login__signInButton{
+        border-radius: 2px;
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin-left: 130px;
+        background-color: rgb(157, 126, 79);
+      }
+      .login__registerButton{
+        font-size: 17px;
+        border-radius: 2px;
+        display: block;
+        width: 100px;
+        height: 40px;
+        
+        background-color: rgb(157, 126, 79);
+      }
+    
+  </style>
+  <body>
+    <!-- from login -->
+    <div class="login">
+      <div class="login__container">
+        <h1>Đăng Nhập với tư cách quản trị viên</h1>
+        <form>
+          <h5>SDT/Email</h5>
+          <input type="text" class="input-login-username" />
+          <h5>Mật khẩu</h5>
+          <input type="password" class="input-login-password" />
+          <a href="adminGD.html"<button type="submit" class="login__signInButton">Đăng Nhập</button></a>
+        </form>
+        <a href="./Dang_ky.html" class="login__registerButton"
+          >Đăng kí</a>
+      </div>
+    </div>
+  </body>
+  <script src="./js/main.js"></script>
+</html>

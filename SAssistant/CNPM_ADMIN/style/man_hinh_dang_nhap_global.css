@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-jua: Jua;
+  --font-indie-flower: "Indie Flower";
+
+  /* Colors */
+  --color-black: #000;
+  --color-snow: #fffbfb;
+
+  /* Border radiuses */
+  --br-36xl: 55px;
+}

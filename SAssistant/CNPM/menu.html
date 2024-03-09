@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./style/menu_1.css" />
+    <link rel="stylesheet" href="./style/menu_2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="m5">
+      <img class="m5-child" alt="" src="./public/frame-4.svg" id="frame" />
+
+      <img class="m5-item" alt="" src="./public/frame-3.svg" id="frame1" />
+
+      <img class="m5-inner" alt="" src="./public/frame-2.svg" id="frame2" />
+
+      <img class="frame-icon" alt="" src="./public/frame-1.svg" id="frame3" />
+
+      <a href="./Nhac_nho.html"><div class="nhc-nh">Nhắc Nhở</div></a>
+      <a href="./Phan_hoi.html"><div class="gi-phn-hi">Gửi Phản Hồi</div></a>
+      <a href="./Lich_hoc.html"><div class="lch-hc" id="lchHcText">Lịch Học</div></a>
+      <a href="bam_thoi_tiet.html"><div class="thi-tit">Thời Tiết</div></a>
+    </div>
+
+    <script>
+      var frame = document.getElementById("frame");
+      if (frame) {
+        frame.addEventListener("click", function (e) {
+          // Please sync "M5.4(Phản Hồi)" to the project
+        });
+      }
+      
+      var frame1 = document.getElementById("frame1");
+      if (frame1) {
+        frame1.addEventListener("click", function (e) {
+          // Please sync "M5.3(Nhắc Nhở)" to the project
+        });
+      }
+      
+      var frame2 = document.getElementById("frame2");
+      if (frame2) {
+        frame2.addEventListener("click", function (e) {
+          // Please sync "M5.2(Thời Tiết)" to the project
+        });
+      }
+      
+      var frame3 = document.getElementById("frame3");
+      if (frame3) {
+        frame3.addEventListener("click", function (e) {
+          // Please sync "M5.1(Lịch Học)" to the project
+        });
+      }
+      
+      var lchHcText = document.getElementById("lchHcText");
+      if (lchHcText) {
+        lchHcText.addEventListener("click", function (e) {
+          // Please sync "M5.1(Lịch Học)" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

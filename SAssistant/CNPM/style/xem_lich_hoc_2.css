@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-aleo: Aleo;
+  --font-tapestry: Tapestry;
+  --font-jua: Jua;
+  --font-montserrat: Montserrat;
+  --font-ingrid-darling: "Ingrid Darling";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-cadetblue-100: #2f96a4;
+  --color-darkblue: #1627c1;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+  --color-lightseagreen: #33a49d;
+  --color-dodgerblue: #0886fa;
+  --color-skyblue-100: #70c7d7;
+  --color-skyblue-200: #78b9cd;
+  --color-royalblue: #7481f7;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}

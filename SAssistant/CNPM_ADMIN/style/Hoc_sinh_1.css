@@ -1,0 +1,119 @@
+.m42hc-sinh-child {
+  position: absolute;
+  top: 173px;
+  left: 40px;
+  background-color: #58abc3;
+  width: 350px;
+  height: 514px;
+}
+.tk,
+.tk1,
+.tk2 {
+  position: absolute;
+  top: 328px;
+  left: 81px;
+  border-radius: var(--br-36xl);
+  background-color: var(--color-snow);
+  width: 268px;
+  height: 38px;
+}
+.tk1,
+.tk2 {
+  top: 411px;
+}
+.tk2 {
+  top: 494px;
+}
+.hc-sinh,
+.m42hc-sinh-item {
+  position: absolute;
+  top: 177px;
+}
+.m42hc-sinh-item {
+  left: 40px;
+  background-color: #d9d9d9;
+  width: 350px;
+  height: 61px;
+}
+.hc-sinh {
+  left: 72px;
+  font-size: 50px;
+  font-family: var(--font-montserrat);
+  color: var(--color-cadetblue-100);
+  display: inline-block;
+  width: 286px;
+  height: 106px;
+  -webkit-text-stroke: 1px #000;
+}
+.m42hc-sinh-inner,
+.rectangle-div {
+  position: absolute;
+  top: 577px;
+  left: 246px;
+  background-color: var(--color-cadetblue-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 126px;
+  height: 42px;
+  cursor: pointer;
+}
+.rectangle-div {
+  left: 62px;
+}
+.bn-ang-hc,
+.cp123 {
+  left: 106px;
+  background: linear-gradient(180deg, #000, transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 218px;
+  height: 22px;
+}
+.cp123 {
+  position: absolute;
+  top: 336px;
+  display: inline-block;
+}
+.bn-ang-hc {
+  top: 419px;
+}
+.bn-ang-hc,
+.lp,
+.quay-li,
+.tip-tc {
+  position: absolute;
+  display: inline-block;
+}
+.lp {
+  top: 502px;
+  left: 106px;
+  background: linear-gradient(180deg, #000, transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 218px;
+  height: 22px;
+}
+.quay-li,
+.tip-tc {
+  top: 585px;
+  left: 261px;
+  font-family: var(--font-jua);
+  width: 106px;
+  height: 37px;
+  -webkit-text-stroke: 1px #000;
+}
+.quay-li {
+  left: 72px;
+}
+.m42hc-sinh {
+  position: relative;
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-indie-flower);
+  width: 410px;
+  margin: 50px auto;
+}

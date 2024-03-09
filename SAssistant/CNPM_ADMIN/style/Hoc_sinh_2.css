@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-jua: Jua;
+  --font-indie-flower: "Indie Flower";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-cadetblue-100: #2f96a4;
+  --color-black: #000;
+  --color-snow: #fffbfb;
+
+  /* Border radiuses */
+  --br-36xl: 55px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./style/Nhac_nho_1.css" />
+    <link rel="stylesheet" href="./style/Nhac_nho_2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tapestry:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ingrid Darling:wght@400&display=swap"
+    />
+  </head>
+  <style>
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      margin-left: 30px;
+      margin-top: 378px; /* Khoảng cách giữa các switch */
+    }
+    .battatcat {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      margin-left: 30px;
+      margin-top: 155px; /* Khoảng cách giữa các switch, thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    </style>
+  <body>
+    <div class="m53nhc-nh">
+      <div class="m53nhc-nh-child"></div>
+      <div class="m53nhc-nh-item"></div>
+      <div class="nhc-nh">Nhắc Nhở</div>
+      <div class="m53nhc-nh-inner"></div>
+      <div class="rectangle-div"></div>
+      <div class="nhc-nh-lch">Nhắc nhở lịch học</div>
+      <div class="nhc-nh-thi">Nhắc nhở thời tiết</div>
+      <div class="rectangle-parent" id="frameContainer">
+        <div class="frame-child"></div>
+        <a href="./menu.html"><div class="quay-li">QUAY LẠI</div></a>
+      </div>
+      <div class="rectangle-group" id="frameContainer1">
+        <div class="frame-item"></div>
+        <div class="sassistant">SAssistant</div>
+        <div class="frame-inner"></div>
+        <div class="ellipse-div"></div>
+      </div>
+      <div class="m53nhc-nh-child1"></div>
+      <div class="m53nhc-nh-child2"></div>
+      <div class="m53nhc-nh-child3"></div>
+      <div class="m53nhc-nh-child4"></div>
+      <div class="m53nhc-nh-child5"></div>
+      <div class="m53nhc-nh-child6"></div>
+      <div class="bt">Bật</div>
+      <div>     <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+      </label></div>
+      <div>     <label class="battatcat">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+      </label></div>
+      <div class="bt1">Bật</div>
+      <div class="tt">Tắt</div>
+      <div class="tt1">Tắt</div>
+    </div>
+
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          // Please sync "M5" to the project
+        });
+      }
+      
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          // Please sync "M5" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

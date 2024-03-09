@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./style/Lua_chon_1.css" />
+    <link rel="stylesheet" href="./style/Lua_chon_2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    
+    <div class="m4">
+      <div class="rectangle-parent">
+        <div class="frame-child"></div>
+        <div class="frame-item"></div>
+        <div class="la-chn">Lựa Chọn</div>
+        <div class="frame-inner"></div>
+        <div class="rectangle-div"></div>
+        <ul>
+        <li><a href="./Sinh_vien.html" class="sinh-vin" id="sinhVinText">Sinh Viên</a></li>
+        <li><a href="./Hoc_sinh.html" class="hc-sinh" id="hcSinhText">Học Sinh</a></li>
+      </ul>
+        <div class="ellipse-div"></div>
+        <div class="frame-child1"></div>
+      </div>
+    </div>
+
+    <script>
+      var sinhVinText = document.getElementById("sinhVinText");
+      if (sinhVinText) {
+        sinhVinText.addEventListener("click", function (e) {
+          // Please sync "M4.1(Sinh Viên)" to the project
+        });
+      }
+      
+      var hcSinhText = document.getElementById("hcSinhText");
+      if (hcSinhText) {
+        hcSinhText.addEventListener("click", function (e) {
+          // Please sync "M4.2(Học Sinh)" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

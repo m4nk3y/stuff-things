@@ -1,0 +1,92 @@
+
+.frame-child {
+  position: absolute;
+  top: -13px;
+  left: 0;
+  background-color: #50a4be;
+  width: 350px;
+  height: 540px;
+}
+.frame-item,
+.la-chn {
+  position: absolute;
+  top: -8px;
+}
+.frame-item {
+  left: -1px;
+  background-color: var(--color-gainsboro);
+  width: 350px;
+  height: 61px;
+}
+.la-chn {
+  left: 30px;
+  font-size: 50px;
+  color: #2f96a4;
+  display: inline-block;
+  width: 286px;
+  height: 106px;
+  -webkit-text-stroke: 1px #000;
+}
+.frame-inner,
+.rectangle-div {
+  position: absolute;
+  top: 177px;
+  left: 30px;
+  border-radius: var(--br-36xl);
+  background-color: var(--color-gainsboro);
+  border: 6px solid var(--color-powderblue);
+  box-sizing: border-box;
+  width: 288px;
+  height: 64px;
+}
+.rectangle-div {
+  top: 312px;
+}
+.hc-sinh,
+.sinh-vin {
+  position: absolute;
+  top: 182px;
+  left: 63px;
+  display: inline-block;
+  width: 226px;
+  height: 20px;
+  -webkit-text-stroke: 1px #000;
+  cursor: pointer;
+}
+.hc-sinh {
+  top: 315px;
+  left: 62px;
+  height: 66px;
+}
+.ellipse-div,
+.frame-child1 {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  border-radius: 50%;
+  background-color: var(--color-skyblue);
+  width: 18px;
+  height: 18px;
+}
+.frame-child1 {
+  left: 318px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 239px;
+  left: 40px;
+  width: 350px;
+  height: 527px;
+}
+.m4 {
+  position: relative;
+  height: 932px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-brown);
+  font-family: var(--font-montserrat);
+  width: 410px;
+  margin: 50px auto;
+
+}
