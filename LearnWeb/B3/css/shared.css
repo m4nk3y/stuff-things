@@ -105,3 +105,75 @@ nav ul li{
 #hero-content a:hover{
     background-color: rgba(255, 255, 0, 0.8);
 }
+
+#highlights {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px 0px;
+    color: #3b4140;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));;
+}
+
+#highlights h2{
+    margin: 24px 0;
+    font-size: 40px;
+}
+
+#Destinations{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.destination{
+    margin: 0 20px;
+}
+
+.destination p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+
+.destination span{
+    color: rgb(0, 160, 117);
+    font-weight: 600;
+}
+
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#footer{
+    background-color: #1c1c1c;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+#footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+#footer li{
+    width: 80px;
+    height: 80px;
+    margin: 45px;
+}
+
+#footer img{
+    width: 100%;
+    height: 100%;
+}
